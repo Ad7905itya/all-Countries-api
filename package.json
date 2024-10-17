@@ -1,9 +1,8 @@
 {
   "name": "countries-list-api",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "start": "parcel src/index.html --no-cache"
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "",
