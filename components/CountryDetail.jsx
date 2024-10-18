@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react";
 import { Link, useLocation, useParams } from "react-router-dom";
 import NotFound from "./NotFound";
-import CountryDetailShimmer from "./COuntryDetailShimmer";
+import CountryDetailShimmer from "./CountryDetailShimmer";
 import ThemeContext from "../contexts/ThemeContext";
 
 const CountryDetail = () => {
