@@ -8,7 +8,7 @@ const Header = () => {
         localStorage.setItem('DarkMode',!IsDark);
     }
     return (
-        <header className={IsDark? "px-7 flex  shadow-sm shadow-slate-400 dark sticky top-0 z-10" : "px-7 flex shadow-sm shadow-slate-400 sticky top-0 z-10"}>
+        <header className={IsDark? "px-7 flex  shadow-sm shadow-slate-400 dark sticky top-0 z-10" : "px-7 flex shadow-sm shadow-slate-400 sticky top-0 z-10 bg-white text-black"}>
             <nav className="min-h-20 max-w-[1280px] w-full m-auto flex justify-between items-center">
                 <div className="text-2xl">
                     <a className="font-bold text-base phones:text-xl" href="/">Where in the World?</a>
