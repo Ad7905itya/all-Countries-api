@@ -4,7 +4,7 @@ import ThemeContext from "../contexts/ThemeContext";
 const SearchBar = ({setQuery}) => {
     const [theme] = useContext(ThemeContext);
     const InputValue = (e) => {
-        setQuery(e.target.value);
+        setQuery(e.target.value.toLowerCase());
     }
     return (
         <div className={theme? 'flex justify-between max-w-md shadow-3xl shadow-[rgba(0,0,0,0.1)] bg-[var(--Dark-Blue)] rounded-xl overflow-hidden w-full' : 'flex justify-between max-w-md shadow-3xl shadow-[rgba(0,0,0,0.1)] bg-white rounded-xl overflow-hidden w-full'}>
